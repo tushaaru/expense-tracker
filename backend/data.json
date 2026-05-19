@@ -1,0 +1,110 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "category": "Food",
+      "amount": 120,
+      "description": "Canteen lunch",
+      "date": "2025-05-01",
+      "studentId": "S001"
+    },
+    {
+      "id": 2,
+      "category": "Transport",
+      "amount": 40,
+      "description": "Bus pass top-up",
+      "date": "2025-05-01",
+      "studentId": "S001"
+    },
+    {
+      "id": 3,
+      "category": "Stationery",
+      "amount": 85,
+      "description": "Notebooks & pens",
+      "date": "2025-05-02",
+      "studentId": "S001"
+    },
+    {
+      "id": 4,
+      "category": "Food",
+      "amount": 65,
+      "description": "Coffee & snacks",
+      "date": "2025-05-03",
+      "studentId": "S001"
+    },
+    {
+      "id": 5,
+      "category": "Entertainment",
+      "amount": 200,
+      "description": "Movie with friends",
+      "date": "2025-05-04",
+      "studentId": "S001"
+    },
+    {
+      "id": 6,
+      "category": "Food",
+      "amount": 95,
+      "description": "Dinner outside",
+      "date": "2025-05-05",
+      "studentId": "S001"
+    },
+    {
+      "id": 7,
+      "category": "Stationery",
+      "amount": 30,
+      "description": "Printouts",
+      "date": "2025-05-06",
+      "studentId": "S001"
+    },
+    {
+      "id": 8,
+      "category": "Transport",
+      "amount": 55,
+      "description": "Auto fare",
+      "date": "2025-05-07",
+      "studentId": "S001"
+    },
+    {
+      "id": 9,
+      "category": "Food",
+      "amount": 110,
+      "description": "Lunch + tea",
+      "date": "2025-05-08",
+      "studentId": "S001"
+    },
+    {
+      "id": 10,
+      "category": "Entertainment",
+      "amount": 150,
+      "description": "Fest entry ticket",
+      "date": "2025-05-09",
+      "studentId": "S001"
+    },
+    {
+      "id": 11,
+      "category": "Food",
+      "amount": 75,
+      "description": "Canteen breakfast",
+      "date": "2025-05-10",
+      "studentId": "S001"
+    },
+    {
+      "id": 16,
+      "category": "Food",
+      "amount": 1,
+      "description": "bus",
+      "date": "2026-05-19",
+      "studentId": "S001"
+    }
+  ],
+  "budgets": {
+    "S001": {
+      "Food": 800,
+      "Transport": 300,
+      "Stationery": 200,
+      "Entertainment": 400,
+      "Miscellaneous": 200
+    }
+  },
+  "nextId": 17
+}
