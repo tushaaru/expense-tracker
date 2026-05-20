@@ -15,6 +15,10 @@ const DB_FILE = path.join(__dirname, 'data.json');
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Campus Spend Tracker Backend Running Successfully 🚀");
+});
+
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 function hashPassword(pw) {
   return crypto.createHash('sha256').update(pw).digest('hex');
