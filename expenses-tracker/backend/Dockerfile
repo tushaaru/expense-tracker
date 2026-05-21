@@ -2,12 +2,16 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY backend/package*.json ./
 
-RUN npm ci --only=production
+COPY package.json package-lock.json ./
 
-COPY backend/ .
 
-EXPOSE 3000
+RUN npm install
 
-CMD ["npm", "start"]
+COPY . .
+
+
+EXPOSE 4000
+
+
+CMD ["node", "server.js"]
